@@ -1,0 +1,137 @@
+body {
+  font-family: sans-serif;
+  background: #ccc;
+  margin: 0 0;
+  padding-top: 0;
+}
+
+.hero {
+  background-image: url(./imagens/bg-3.jpg);
+  height: 500px;
+  background-position: right center;
+  background-size: cover;
+  margin-top: 0%;
+}
+
+.hero nav ul {
+  text-align: right;
+  margin-right: 26px;
+}
+
+.hero nav li {
+  display: inline-block;
+  list-style: none;
+  border: 2px white solid;
+}
+
+.hero nav a {
+  background-color: black;
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: 0.3;
+}
+
+.hero nav a:hover {
+  background-color: black;
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.hero-content h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #333;
+}
+
+.hero-content p {
+  font-family: sans-serif;
+  font-weight: 200;
+  margin: auto;
+  height: 30px;
+  width: 25%;
+  margin: 6px 6px 6px 6px 6px;
+  padding: 15px 6px 6px 6px;
+  background-color: #222;
+  opacity: 0.7;
+  box-sizing: 20px;
+  border-bottom: 2px white solid;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+.content-section {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  width: 30%;
+  display: inline-block;
+  margin-left: 2.5%;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 0;
+  background-color: black;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display: block;
+  opacity: 0.6;
+}
+
+.content-header {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.content-header h2 {
+  background-color: #ccc;
+  padding-top: 20px;
+  height: 50px;
+  font-family: sans-serif;
+  border-bottom: black solid 2px;
+  margin-bottom: auto;
+}
+
+.rodape {
+  margin-top: 15px;
+  height: 80px;
+  background-color: grey;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 2px black;
+}
